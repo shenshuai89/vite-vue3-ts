@@ -3,10 +3,10 @@
 ## vite vue3 typescript
 
 ## 项目搭建
-官方推荐两种方式安装
-• vite
+>> 官方推荐两种方式安装
+- vite
   npm init vite-app vite-vue3-ts # OR yarn create vite-app vite-vue3-ts
-• cli
+- cli
   npm install -g @vue/cli # OR yarn global add @vue/cli
   vue create vite-vue3-ts
 ### 安装依赖

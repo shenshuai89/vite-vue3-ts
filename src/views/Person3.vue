@@ -15,7 +15,6 @@ interface Person {
   age: number;
 }
 export default {
-  name: "person",
   components: {
     PersonInfo,
   },

@@ -1,9 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <HelloWorld msg="北鸟南游 Vue 3.0 + Vite + typescript" />
   <Count></Count>
   <hr />
   <Person></Person>
+  <div id="nav">
+    <router-link to="/">count</router-link> |
+    <router-link to="/todolist">todolist</router-link>
+  </div>
+  <router-view />
 </template>
 
 <script lang="ts">
